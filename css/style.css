@@ -1,0 +1,137 @@
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/* fonts */
+
+@font-face {
+  font-family: "Muller";
+  src: local("Muller-Bold"),
+    url("../fonts/MullerBold.woff2") format("woff2"),
+    url("../fonts/MullerBold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: local("Muller-Medium"),
+    url("../fonts/MullerMedium.woff2") format("woff2"),
+    url("../fonts/MullerMedium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: local("Muller-RegularItalic"),
+    url("../fonts/MullerRegularitalic.woff2") format('woff2'),
+    url("../fonts/MullerRegularitalic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: local("Muller-Regular"),
+    url("../fonts/MullerRegular.woff2") format("woff2"),
+    url("../fonts/MullerRegular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: local("Muller-LightItalic"),
+    url("../fonts/MullerLightitalic.woff2") format('woff2'),
+    url('../fonts/MullerLightitalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* reset */
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+/* repeat */
+
+body {
+  min-width: 320px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Muller", sans-serif;
+  background: #FFFFFF;
+}
+
+.container {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  outline: 1px solid;
+}
+
+:root {
+
+}
+
+.heder__margin {
+  margin-bottom: 20px;
+}
+
+.section__title {
+  margin-bottom: 20px;
+}
+
+.section {
+  padding-bottom: 30px;
+  padding-top: 30px;
+} 
+
+.list__item {
+  margin-bottom: 15px;
+  outline: 1px solid rebeccapurple;
+}
+
