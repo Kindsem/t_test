@@ -1,14 +1,13 @@
-
 html {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 ::after {
   -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 /* fonts */
@@ -113,25 +112,36 @@ body {
   outline: 1px solid;
 }
 
-:root {
-
-}
+:root {}
 
 .heder__margin {
   margin-bottom: 20px;
 }
 
 .section__title {
+  display: flex;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
 .section {
-  padding-bottom: 30px;
-  padding-top: 30px;
-} 
+  margin: 0 auto;
+margin-bottom: 30px;
+}
 
 .list__item {
+  margin: 0 auto;
+  max-width: 320px;
+  min-height: 320px;
   margin-bottom: 15px;
   outline: 1px solid rebeccapurple;
 }
 
+.list__item-text:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
