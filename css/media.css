@@ -1,7 +1,34 @@
 @media (max-width:576px) {
   .container {
+    max-width: 376px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .nav__list {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .nav__link {
+    font-size: 10px;
+  }
+
+  .nav__list-item:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  .section__title {
+    font-size: 16px;
+  }
+
+
+  .list__item-link {
+    font-size: 13px;
+  }
+
+  .text {
+    font-size: 10px;
   }
 
 }
